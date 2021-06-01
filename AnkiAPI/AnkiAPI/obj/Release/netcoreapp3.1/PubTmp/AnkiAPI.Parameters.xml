@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="NewAnkiApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\University\\ОП\\AnkiAPI\\AnkiAPI\\AnkiAPI\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AnkiAPI.Date.AnkiDbContext" description="" value="Server=database-2.cal9zzewfdjf.us-east-2.rds.amazonaws.com;Database=ApiDb;User ID=admin;Password=2002Tank2002;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\University\\ОП\\AnkiAPI\\AnkiAPI\\AnkiAPI\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\AnkiAPI\.Date\.AnkiDbContext\.sql$" />
+  </parameter>
+</parameters>
